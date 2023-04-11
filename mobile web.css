@@ -1,0 +1,392 @@
+input[type=checkbox]{
+    display: none;
+   }
+   .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select:none;
+}   
+nav  {
+    border: 1px solid black;
+    height: 80px; width: 100%; 
+    background-color: yellowgreen;  
+    display: flex; 
+}
+nav h1 {
+    color: black;
+    margin-left: 60px;
+}
+nav ol {
+    padding-left: 700px;
+}
+nav ol li {
+    list-style-type: none;
+    float: left;
+    font-size: 20px;
+    margin-left: 35px;
+}
+nav ol a {
+    text-decoration: none;
+}
+#Home {
+    display: flex;
+}
+#Home img {
+    height: 400px; width: 600px; 
+} 
+#Home p {
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 100;
+    color: brown;
+    margin-top: 100px;
+    margin-left: 70px;
+    cursor: none;
+}
+#homee {
+    border: 1px solid black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(10, 12, 11);
+}
+#About {
+    display: flex;
+}
+#About img {
+    height: 400px; width: 550px;
+}
+#abb ul li {
+    margin-left: 70px;
+    margin-top: 70px;
+    font-size: 20px;
+    color: brown;
+    font-style:italic
+}
+#Menu {
+    border: 1px solid black;
+} 
+#Menu p {
+    text-align: center;
+    font-size: 40px;
+    font-style: inherit;
+    color: blue;
+}
+#apple {
+    display: flex;
+}
+#apple img {
+    margin-top: 80px;
+    margin-left: 10px;
+    height: 200px;
+    width: 150px;
+}
+#apple p {
+    margin-left: 50px;
+    margin-top: 70px;
+    font-size: 30px;
+    font-style: normal;
+    color: black;
+}
+#apple h2 {
+    text-decoration: line-through;
+    color: black;
+    margin-top: 195px;
+    font-size: 25px;
+    font-style: normal;
+}
+#oneplus {
+    display: flex;
+}
+#oneplus img {
+    margin-top: 80px;
+    margin-left: 100px;
+    height: 200px;
+    width: 200px;  
+}
+#onepl p {
+    margin-top: 70px;
+    margin-left: 100px;
+    font-size: 30px;
+    font-style: normal;
+    color: black;
+}
+#onepl h2 {
+    text-decoration: line-through;
+    color: black;
+    margin-top: 5px;
+    margin-left: 350px;
+    font-size: 25px;
+    font-style: normal;
+}
+#oppo img {
+    margin-top: 100px;
+    margin-left: 10px;
+    height: 250px; width: 160px;
+}
+#oppo {
+    display: flex;
+}
+#oppo p {
+    margin-left: 20px;
+    margin-top: 120px;
+    color: black;
+    font-size: 30px;
+    font-style: normal;
+}
+#oppo h2 {
+    text-decoration: line-through;
+    margin-left: 10px;
+    margin-top: 200px;
+}
+#vivo {
+    display: flex;
+}
+#vivo img {
+    margin-top: 70px;
+    margin-left: 70px;
+    height: 300px;
+    width: 200px;
+}
+#vivo p {
+    margin-top: 90px;
+    margin-left: 100px;
+}
+#nokia {
+    display: flex;
+}
+#nokia img {
+    margin-top: 70px;
+    margin-left: 10px;
+    height: 250px; width: 170px;
+}
+#nokia p {
+    margin-top: 70px;
+    margin-left: 60px;
+    color: black;
+    font-size: 30px;
+    font-style: normal;
+}
+#nokia h2 {
+    text-decoration: line-through;
+    margin-top: 200px;
+    margin-left: 40px;
+}
+#samsung {
+    display: flex;
+}
+#samsung img {
+    margin-top: 70px;
+    margin-left: 80px;
+    height: 250px; width: 200px;
+}
+#samsung p {
+    margin-top: 70px;
+    margin-left: 100px;
+}
+#samsung h2 {
+    text-decoration: line-through;
+    margin-top: 220px;
+    margin-left: 50px;
+}
+#video  {
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 100;
+    color: darkblue;
+    text-align: center;
+}
+#videoo {
+    margin-left: 400px;
+    margin-top: 50px;
+}
+#Contact {
+    display: flex;
+}
+#Contact {
+    border: 1px solid black;
+    background-color: black;
+    height: 400px; width: 100%;
+}
+#Contact img {
+    height: 300px;
+    width: 350px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+#address {
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    margin-left: 120px;
+    margin-top: 70px;
+}
+#address i {
+    color: red;
+}
+#call {
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    margin-top: 70px;
+    margin-left: 5px;
+}
+#call i {
+    color: red;
+}
+#email {
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    margin-left: 250px;
+    margin-top: 70px;
+}
+#email i {
+    color: red;
+}
+#opening {
+    font-size: 18px;
+    font-style: normal;
+    color: white;
+    margin-top: 80px;
+    margin-left: 5px;
+}
+#opening i {
+    color: red;
+}
+#copy i {
+    height: 30px; width: 30px;
+}
+#copy {
+    border: 1px solid black;
+    background-color: gray;
+}
+#copy h2 {
+    margin-top: 3px;
+}
+#copy p {
+    text-align: center;
+    font-style: oblique;
+    margin-top: 1px;
+}
+#form form fieldset {
+    width: 500px; 
+    margin-left: 400px; 
+    margin-top: 100px;
+    text-align: center;
+}
+
+@media only screen and (max-width:800px)
+{
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+       }
+       .hamburger {
+        display: block;
+       }
+    nav {
+        display: block !important;
+        height: auto; width: 300px;
+        background-color: blue;
+    }
+    nav ol {
+        padding-left: 300px;
+        line-height: 20px;
+    }
+    nav ol li {
+        float: none;
+    }
+    #Home {
+        display: block !important;
+    }
+    #Home img {
+        height: auto;
+        width: 250px;
+    }
+    #homee {
+        height: auto; 
+        width: 250px;
+        display: block !important;
+    } 
+    #homee img {
+        height: 50px;
+        width: 50px;
+    }  
+    #About {
+        display: block !important;
+    }
+    #About img {
+        height: 300px;
+        width: 250px;
+    }
+    #Menu {
+        height: auto;
+        width: 230px;
+    }
+    #apple {
+        display: block !important;
+    }
+    #apple img {
+        height: auto;
+        width: 240;
+    }
+    #oneplus {
+        display: block !important;
+    }
+    #oneplus img {
+        height: 300px;
+        width:170px;
+        margin-left: 5px;
+    }
+    #oppo {
+        display: block !important;
+    }
+    #oppo img {
+        height: 300px;
+        width: 240px;
+    }
+    #vivo {
+        display: block !important;
+    }
+    #vivo img {
+        height: 200px;
+        width: 160px;
+    }
+    #nokia {
+        display: block !important;
+    }
+    #nokia img {
+        height: 300px;
+        width: 240px;
+    }
+    #samsung {
+        display: block !important;
+    }
+    #samsung img {
+        height: 300px;
+        width: 200px;
+        margin-left: 4px;
+    }
+    #videoo {
+        height: auto;
+        width: 250px;
+        margin-left: 0px;
+    }
+    #form form fieldset {
+        width: auto;
+        margin-left: 1px;
+    }   
+    #Contact {
+        display: block !important;
+        height: auto;
+        width: 250px;
+        margin-left: 8px;
+    }
+    #email {
+        margin-left: 120px;
+    }
+    #copy  {
+    height: auto;
+    width: 250px;
+    }
+}
